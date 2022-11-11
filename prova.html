@@ -1,0 +1,46 @@
+<html>
+    <body>
+        <h2>Prova de Tecnologias</h2>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html" onclick="home();"> Home </a></li>
+                <li><a href="#" onclick="cadastrar();"> Cadastro </a></li>
+                <li><a href="#" onclick="tarefas();"> Tarefas </a></li>
+                <li><a href="#" > Sobre </a></li>
+            </ul>
+        </div>
+        <div id="centro">
+            <div id="tarefas"> Tarefa:
+                <input id="nome" type="text" placeholder="Nome"><br>
+                <input type="text" placeholder="Login"><br>
+                <input class="botao">
+                <button class="botao"> Adicionar </button>
+            </div>
+            <div id="imagem">
+                <img src="smile.jpg" width="200" height="300" >
+            </div>
+        </div>
+        <script>
+           //qt 01
+            document.getElementeByTagName("h2")[0].style.color ="pink";
+            document.getElementTagName("h2")[0].style.fontfamily ="areal";
+           //qt 02
+            document.getElementsByTagName("h2")[0].inneHTML = "PROVA DE WEB";
+
+         //qt 03
+           var y = document.getElementsByClassName("botao")[0].value;
+           document.getElementsByTagName("a")[3].innerHtml = y;
+         //qt 04
+            var p = document.createElement ("p");
+            p.innerHTML ="Thaianny Linda";
+
+         //qt 05   
+            document.getElemnteByClassName("botao")[1].addEventListener("onclick = )
+
+        
+        //qt 06 
+           document.getElementById("nome")[0].("converterMauiscula").inneHTML ='CONVERTER PARA MMINUSCULO';
+            </script>
+    </body>
+</html>
+
